@@ -1,101 +1,16 @@
-# Dream Hire - Job Portal
+# React + Vite
 
-## Overview
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Dream Hire is a full-stack Job Portal application developed using Java and Spring Boot. It allows job seekers to browse and apply for jobs while recruiters can post and manage job listings. The application provides secure authentication and efficient database management.
+Currently, two official plugins are available:
 
-## Features
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
 
-* User Registration and Login
-* Secure Authentication using JWT
-* Role-based Access Control
-* Job Posting and Management
-* Job Search and Application
-* RESTful APIs
-* MySQL Database Integration
+## React Compiler
 
-## Tech Stack
+The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
 
-### Backend
+## Expanding the ESLint configuration
 
-* Java
-* Spring Boot
-* Spring MVC
-* Spring Data JPA
-
-### Security
-
-* Spring Security
-* JWT
-* OAuth 2.0
-
-### Database
-
-* MySQL
-
-### Tools
-
-* Git
-* GitHub
-* Eclipse IDE
-* VS Code
-* Postman
-* JUnit
-
-## Project Structure
-
-```
-src
-├── controller
-├── service
-├── repository
-├── entity
-├── security
-├── config
-└── resources
-```
-
-## Installation
-
-1. Clone the repository.
-2. Configure MySQL database credentials.
-3. Import the project into Eclipse or VS Code.
-4. Run the Spring Boot application.
-5. Test APIs using Postman.
-
-## Main Modules
-
-* User Management
-* Authentication & Authorization
-* Job Management
-* Job Applications
-* Recruiter Dashboard
-
-## Future Enhancements
-
-* Resume Upload
-* Email Notifications
-* AI-based Job Recommendations
-* Interview Scheduling
-
-## Learning Outcomes
-
-This project helped in understanding:
-
-* Spring Boot Development
-* Spring Security and JWT
-* REST API Development
-* Spring Data JPA
-* MySQL Integration
-* CRUD Operations
-* Git and GitHub
-
-## Author
-
-**Umme Kulsum**
-
-Java Full Stack Developer
-
-## License
-
-This project is developed for learning and educational purposes.
+If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
